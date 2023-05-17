@@ -29,7 +29,7 @@ class Welcome extends CI_Controller
     }
 
     public function tampil()
-    
+
     {
         $nama = $this->input->post('nama');
         $nim = $this->input->post('nim');
