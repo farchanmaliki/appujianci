@@ -37,9 +37,15 @@
       <div class="col-md-6">
         <h2 class="text-body-emphasis">Form Input Data</h2>
         <p>Masukan data yang akan di proses</p>
+<<<<<<< HEAD
         <form method="post" action="{{ site_url('welcome/tampil') }}">
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Nama</label>
+=======
+        <form method="post" action="">
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Nama (text only)</label>
+>>>>>>> c2722dcb79c8e1a5962b9bf30b6bda6ca43beff2
                 <input type="text" pattern="[a-zA-Z]*" class="form-control" id="nama" name="nama" aria-describedby="nama" required>
             </div>
             <div class="mb-3">
